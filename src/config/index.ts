@@ -53,7 +53,7 @@ export const SITE_CONTENT: SiteContent = {
     },
     {
       name: "Tasky",
-      summary: "A full-functional to-do list app inspire by Todoist.",
+      summary: "A fully-functional to-do list app inspired by Todoist.",
       linkPreview: "/",
       linkSource: "https://github.com/neil-justin/todo-list-app",
       image: "/tasky.jpeg",
