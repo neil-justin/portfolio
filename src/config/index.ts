@@ -35,11 +35,9 @@ export const SITE_CONTENT: SiteContent = {
       startDate: "May 2025",
       endDate: "Present",
       summary: [
-        `Developed multi-tenant web applications for multiple clients, ensuring
-         secure data separation using MongoDB and tailored functionality for
-         each tenant using NestJS and Next.js`,
-        `Facilitated daily standup meetings on a rotating schedule for a
-         cross-functional team of engineers and product specialists`,
+        `Built multi-tenant web applications using NestJS and Next.js with MongoDB for data storage, implementing tenant isolation to keep client data separate"`,
+        `Coordinated daily standups for cross-functional team of 10-15 software engineers and product specialists`,
+        `Assisted new hires with local development environment setup and onboarding documentation`
       ],
     },
   ],
