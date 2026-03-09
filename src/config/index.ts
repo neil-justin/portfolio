@@ -30,14 +30,14 @@ export const SITE_CONTENT: SiteContent = {
   },
   experience: [
     {
-      company: "Career TEAM",
+      company: "Career TEAM (US, Remote)",
       position: "Software Engineer",
       startDate: "May 2025",
       endDate: "Present",
       summary: [
-        `Built multi-tenant web applications using NestJS and Next.js with MongoDB for data storage, implementing tenant isolation to keep client data separate"`,
-        `Coordinated daily standups for cross-functional team of 10-15 software engineers and product specialists`,
-        `Assisted new hires with local development environment setup and onboarding documentation`
+        "Developed multi-tenant web apps with NestJS and Next.js, using MongoDB to build a tenant isolation layer that secured data across different clients.",
+        "Led daily standups for a 15-person cross-functional team, acting as the bridge between developers and product to keep sprint goals on track.",
+        "Facilitated team growth by conducting technical interviews and personally guiding new hires through their local environment setup and codebase walkthroughs."
       ],
     },
   ],
@@ -59,16 +59,11 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      Hello, I'm Neil Justin Mallari, an enthusiastic Software Engineer currently pursuing
-      my Computer Science degree. I've dedicated years to refining my expertise
-      in full-stack development.
+      Hello, I'm Neil Justin Mallari, a Software Engineer pursuing my Computer Science degree. 
+      I specialize in full-stack development with expertise in Next.js, NestJS, MongoDB, and TypeScript.
       
-      I am presently part of the skilled engineering team at Career TEAM, a
-      US-based company. Our technology stack centers around Next.js, NestJS,
-      MongoDB, and TypeScript.
-
-      Beyond my professional work, I've built various personal projects using
-      Express and am currently expanding my skills by learning PHP with Laravel.
+      Currently working remotely as part of the engineering team at Career TEAM, a US-based company. 
+      I've also built personal projects using Express and am expanding my skills by learning C#.
     `,
     image: "/neil-profile.jpg",
   },
