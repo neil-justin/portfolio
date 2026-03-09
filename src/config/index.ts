@@ -4,7 +4,7 @@ export const SITE_CONFIG: SiteConfig = {
   title: "Neil Justin Mallari — Software Engineer",
   author: "Neil Justin Mallari",
   description:
-    "Software Engineer based in Cavite, Philippines. I specialize in full-stack development with MERN stack.",
+    "Software Engineer based in Cavite, Philippines, specializing in full-stack development with Next.js, NestJS, and TypeScript.",
   lang: "en",
   siteLogo: "/neil-profile.jpg",
   navLinks: [
@@ -25,7 +25,7 @@ export const SITE_CONTENT: SiteContent = {
     name: "Neil Justin Mallari",
     specialty: "Software Engineer",
     summary:
-      "Software Engineer based in Cavite, Philippines. I specialize in full-stack development with MERN stack.",
+      "Software Engineer based in Cavite, Philippines, specializing in full-stack development with Next.js, NestJS, and TypeScript.",
     email: "neiljustin.mallari@proton.me",
   },
   experience: [
