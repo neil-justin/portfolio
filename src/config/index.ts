@@ -30,10 +30,21 @@ export const SITE_CONTENT: SiteContent = {
   },
   experience: [
     {
+      company: "Thorne Consulting (US, Remote)",
+      position: "Lead Software Engineer",
+      startDate: "Jun 2026",
+      endDate: "Present",
+      summary: [
+        "Drive the end-to-end engineering roadmap, balancing hands-on feature development with product planning, cross-functional prioritization, and full sprint/ticket lifecycle management.",
+        "Enforce architectural integrity and code quality across the full stack by establishing design pattern standards and leading comprehensive code reviews.",
+        "Scale the engineering team by designing and conducting technical interviews focused on system design, architecture, and cultural alignment."
+      ],
+    },
+    {
       company: "Career TEAM (US, Remote)",
       position: "Software Engineer",
       startDate: "May 2025",
-      endDate: "Present",
+      endDate: "Jun 2026",
       summary: [
         "Developed multi-tenant web apps with NestJS and Next.js, using MongoDB to build a tenant isolation layer that secured data across different clients.",
         "Led daily standups for a 15-person cross-functional team, acting as the bridge between developers and product to keep sprint goals on track.",
@@ -62,7 +73,7 @@ export const SITE_CONTENT: SiteContent = {
       Hello, I'm Neil Justin Mallari, a Software Engineer pursuing my Computer Science degree. 
       I specialize in full-stack development with expertise in Next.js, NestJS, MongoDB, and TypeScript.
       
-      Currently working remotely as part of the engineering team at Career TEAM, a US-based company. 
+      Currently working remotely as Lead Software Engineer at Thorne Consulting, a US-based company.
       I've also built personal projects using Express and am expanding my skills by learning C#.
     `,
     image: "/neil-profile.jpg",
