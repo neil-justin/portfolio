@@ -16,8 +16,8 @@ export const SITE_CONFIG: SiteConfig = {
     { text: "LinkedIn", href: "https://www.linkedin.com/in/neil-mallari/" },
     { text: "Github", href: "https://github.com/neil-justin" },
   ],
-  socialImage: "/zen-og.png",
-  canonicalURL: "https://astro-zen.vercel.app",
+  socialImage: "/neil-profile.jpg",
+  canonicalURL: "https://portfolio-three-mu-53.vercel.app",
 };
 
 export const SITE_CONTENT: SiteContent = {
@@ -30,39 +30,42 @@ export const SITE_CONTENT: SiteContent = {
   },
   experience: [
     {
-      company: "Thorne Consulting (US, Remote)",
-      position: "Lead Software Engineer",
-      startDate: "Jun 2026",
-      endDate: "Present",
+      company: "Thorne Consulting (US, Remote) — Contract",
+      position: "Lead Software Engineer (Interim)",
+      startDate: "Mar 2026",
+      endDate: "Sept 2026",
       summary: [
-        "Drive the end-to-end engineering roadmap, balancing hands-on feature development with product planning, cross-functional prioritization, and full sprint/ticket lifecycle management.",
-        "Enforce architectural integrity and code quality across the full stack by establishing design pattern standards and leading comprehensive code reviews.",
-        "Scale the engineering team by designing and conducting technical interviews focused on system design, architecture, and cultural alignment."
+        "Second engineer on the founding team of a career-readiness startup; grew into the interim lead role.",
+        "Planned features end-to-end — specifying database schemas, API contracts, and frontend component breakdowns that mentored engineers built against — then reviewed the code they shipped.",
+        "Managed deployments and releases, and acted as the bridge between engineering and non-technical staff for day-to-day support.",
+        "Conducted ~55 technical interviews covering system design and culture fit, directly mentored 2 interns, and onboarded new engineers on the codebase's architecture and engineering process."
       ],
     },
     {
-      company: "Career TEAM (US, Remote)",
+      company: "Career Team LLC (US, Remote)",
       position: "Software Engineer",
       startDate: "May 2025",
       endDate: "Jun 2026",
       summary: [
-        "Developed multi-tenant web apps with NestJS and Next.js, using MongoDB to build a tenant isolation layer that secured data across different clients.",
-        "Led daily standups for a 15-person cross-functional team, acting as the bridge between developers and product to keep sprint goals on track.",
-        "Facilitated team growth by conducting technical interviews and personally guiding new hires through their local environment setup and codebase walkthroughs."
+        "Built features on a multi-tenant workforce platform serving thousands of users across government agencies and school organizations, using NestJS, Next.js, and MongoDB.",
+        "Built the multi-tenant admin dashboard and improved its load performance by fixing slow MongoDB queries.",
+        "Shipped admin profile management and configurable workforce forms used by client organizations.",
+        "Facilitated daily standups for a 15-person cross-functional team, acting as the bridge between developers and product to keep sprint goals on track.",
+        "Conducted technical interviews for engineering candidates and buddied 2 new engineers through onboarding and codebase walkthroughs."
       ],
     },
   ],
   projects: [
     {
       name: "MarkNote",
-      summary: "A fully-functional note-taking app with markdown support.",
+      summary: "Full-stack markdown note-taking app built with the MERN stack, containerized with Docker and deployed on Render.",
       linkPreview: "/",
       linkSource: "https://github.com/neil-justin/marknote",
       image: "/marknote.jpeg",
     },
     {
       name: "Tasky",
-      summary: "A fully-functional to-do list app inspired by Todoist.",
+      summary: "A to-do list app built in vanilla JavaScript and CSS — no frameworks, just fundamentals.",
       linkPreview: "/",
       linkSource: "https://github.com/neil-justin/todo-list-app",
       image: "/tasky.jpeg",
@@ -70,11 +73,13 @@ export const SITE_CONTENT: SiteContent = {
   ],
   about: {
     description: `
-      Hello, I'm Neil Justin Mallari, a Software Engineer pursuing my Computer Science degree. 
-      I specialize in full-stack development with expertise in Next.js, NestJS, MongoDB, and TypeScript.
-      
-      Currently working remotely as Lead Software Engineer at Thorne Consulting, a US-based company.
-      I've also built personal projects using Express and am expanding my skills by learning C#.
+      Hello, I'm Neil Justin Mallari, a Software Engineer based in Cavite, Philippines.
+      I specialize in full-stack development with Next.js, NestJS, MongoDB, and TypeScript.
+
+      Most recently, I served as interim Lead Software Engineer at Thorne Consulting, a US-based career-readiness startup,
+      after building multi-tenant workforce platforms at Career Team used by thousands across government agencies and schools.
+
+      Outside of work, I'm deepening my knowledge of distributed systems and system design.
     `,
     image: "/neil-profile.jpg",
   },
